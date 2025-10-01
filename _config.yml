@@ -22,10 +22,6 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 
-scholar:
-  first_name: "Yuning"
-  last_name: "Yang"
-  
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -115,7 +111,6 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: jacobyhsi # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -226,8 +221,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Si
-  first_name: [Jacob]
+  last_name: "Yang"
+  first_name: "Yuning"
 
   style: apa
   locale: en
