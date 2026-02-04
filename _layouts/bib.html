@@ -16,10 +16,10 @@
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
           {%- if entry.award -%}
-          <span class="award badge">{{entry.award}}</span>
+          <span class="award badge" title="{{ entry.award_name | default: entry.award }}">{{entry.award}}</span>
           {%- endif -%}
           {%- if entry.award2 -%}
-          <span class="award badge">{{entry.award2}}</span>
+          <span class="award badge" title="{{ entry.award2_name | default: entry.award2 }}">{{entry.award2}}</span>
           {%- endif -%}
         {%- endif -%}
         </div>
