@@ -30,7 +30,13 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title">
+            {{entry.title}}
+            {%- assign title_award = entry.award_name | default: entry.award -%}
+            {%- if title_award -%}
+              <span class="honor">({{title_award}})</span>
+            {%- endif -%}
+          </div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
