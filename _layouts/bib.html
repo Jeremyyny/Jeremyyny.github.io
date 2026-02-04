@@ -15,10 +15,10 @@
           {%- else -%}
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
-          {%- if entry.award -%}
+          {%- if entry.award and entry.award_name == blank -%}
           <span class="award badge" title="{{ entry.award_name | default: entry.award }}">{{entry.award}}</span>
           {%- endif -%}
-          {%- if entry.award2 -%}
+          {%- if entry.award2 and entry.award2_name == blank -%}
           <span class="award badge" title="{{ entry.award2_name | default: entry.award2 }}">{{entry.award2}}</span>
           {%- endif -%}
         {%- endif -%}
@@ -32,8 +32,8 @@
           <!-- Title -->
           <div class="title">
             {{entry.title}}
-            {%- assign title_award = entry.award_name | default: entry.award -%}
-            {%- if title_award -%}
+            {%- assign title_award = entry.award_name -%}
+            {%- if title_award != blank -%}
               <span class="honor">({{title_award}})</span>
             {%- endif -%}
           </div>
