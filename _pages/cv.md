@@ -2,7 +2,6 @@
 layout: cv
 permalink: /cv/
 title: Background
-nav: true
-nav_order: 1
+nav: false
 cv_pdf: false
 ---

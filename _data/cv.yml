@@ -15,9 +15,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Applied Scientist
+      institution: Amazon
+      year: 2026 - Present
+
     - title: AI Researcher
       institution: U.S. Food and Drug Administration (FDA)
-      year: 2023 - Present
+      year: 2023 - 2026
       description:
         - Advised by <a href="https://www.fda.gov/about-fda/cder-offices-and-divisions/office-clinical-pharmacology">Qi Liu</a>, <a href="http://hkharrazi.com/">Hadi Kharrazi</a>, and <a href="https://www.med.upenn.edu/apps/faculty/index.php/g275/p8205911">David C. Fajgenbaum</a>
         

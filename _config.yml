@@ -8,10 +8,10 @@ middle_name:
 last_name: Yang
 email: yuningyang@ucla.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  The personal website of Yuning Yang.
+  Yuning Yang is an Applied Scientist at Amazon working on personalization and large language models.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: Yuning Yang, machine learning, AI for Health, artificial intelligence  # add your own keywords or leave empty
+keywords: Yuning Yang, Amazon, personalization, large language models, AI agents, AI for health
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
