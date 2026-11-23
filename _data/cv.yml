@@ -1,12 +1,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.Eng in AI and ML
+    - title: Master of Engineering in AI and machine learning
       institution: University of California, Los Angeles
       year: 2023
       description:
         - Advised by <a href="http://www.stat.ucla.edu/~ywu/">Ying Nian Wu</a> and <a href="http://www.stat.ucla.edu/~guangcheng/2.html">Guang Cheng</a>
-    - title: BSc in Computer Science and Quantitative Economics
+    - title: Bachelor’s degree in computer science and quantitative economics
       institution: University of California, Irvine
       year: 2022
       description:
