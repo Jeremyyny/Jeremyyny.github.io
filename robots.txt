@@ -1,7 +1,4 @@
----
-permalink: /robots.txt
----
 User-agent: *
 Disallow:
 
-Sitemap: {{ '/sitemap.xml' | absolute_url }}
+Sitemap: https://jeremyyny.github.io/sitemap.xml
