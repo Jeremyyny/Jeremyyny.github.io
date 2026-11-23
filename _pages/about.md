@@ -1,6 +1,8 @@
 ---
 layout: about
 title: About
+meta_title: Yuning Yang | Applied Scientist at Amazon
+description: Yuning Yang works on personalization and large language models at Amazon. He earned his master's degree in computer science at UCLA and previously developed AI tools at the FDA.
 permalink: /
 subtitle: |+
   <strong>Applied Scientist</strong> at <a href="https://www.amazon.science/author/yuning-yang">Amazon</a>
