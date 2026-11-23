@@ -128,10 +128,10 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -161,6 +161,41 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  # Archive the theme's sample content in the source repository only.
+  - _news
+  - _posts
+  - _projects
+  - blog
+  - _pages/dropdown.md
+  - _pages/projects.md
+  - _pages/teaching.md
+  - CONTRIBUTING.md
+  - assets/bibliography
+  - assets/img/geo
+  - assets/img/score
+  - assets/img/publication_preview
+  - assets/pdf/AAAI2016
+  - assets/pdf/ICLR2018
+  - assets/pdf/ICLR2021
+  - assets/pdf/ICML2016
+  - assets/pdf/ICML2018
+  - assets/pdf/ICML2021
+  - assets/pdf/ICML2023
+  - assets/pdf/NIPS2016
+  - assets/pdf/NeurIPS2018
+  - assets/pdf/NeurIPS2019
+  - assets/pdf/NeurIPS2020
+  - assets/pdf/NeurIPS2021
+  - assets/pdf/cv.pdf
+  - assets/pdf/example_pdf.pdf
+  - assets/img/al-folio-preview.png
+  - assets/img/caltech.ico
+  - assets/img/caltech.png
+  - assets/img/pagespeed.svg
+  - assets/img/prof_pic.jpg
+  - assets/img/profile.jpg
+  - 'assets/img/[0-9]*.jpg'
+  - 'assets/img/*-screenshot.png'
 keep_files:
   - CNAME
   - .nojekyll
